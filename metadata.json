@@ -1,0 +1,5 @@
+{
+  "name": "Aynoor - Premium Eyewear",
+  "description": "A luxury eyewear boutique featuring handcrafted frames and designer sunglasses in a premium green and gold aesthetic.",
+  "requestFramePermissions": ["camera"]
+}

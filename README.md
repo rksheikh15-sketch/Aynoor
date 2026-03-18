@@ -1,11 +1,20 @@
-<div align="center">
+# AYNOOR - Premium Eyewear
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A luxury eyewear boutique featuring handcrafted frames and designer sunglasses in a premium green and gold aesthetic.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Virtual Try-on**: Experience eyewear in real-time using your camera.
+- **Premium Checkout**: A multi-step, secure checkout process.
+- **Responsive Design**: Optimized for desktop and mobile.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Deployment on Netlify
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1. **Connect to GitHub**: Push this repository to your GitHub account.
+2. **Create New Site**: In Netlify, select "New site from Git".
+3. **Configure Build Settings**:
+   - **Build Command**: `npm run build`
+   - **Publish Directory**: `dist`
+4. **Environment Variables**: (Optional) If you use any API keys, set them in the Netlify dashboard.
+5. **Deploy**: Click "Deploy site".
 
-</div>
+The `netlify.toml` file is already configured to handle SPA redirects and build settings.
